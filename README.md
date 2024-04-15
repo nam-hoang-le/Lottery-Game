@@ -6,7 +6,7 @@ In this repository, I will applied Python to create a funny game, Lottery Game.
 
 I will create 3 version: Basic, Pro and Pro Max, which updated multiple features through the version due to the usage and addition of different structures and functions in Python. 
 
-All the version was made in .ipynb file, with careful instructions for each functions.
+The first two versions were made in .ipynb file, with careful instructions for each functions and the last version is in folder format.
 
 You have to run all the cells in order to play the game.
 
@@ -63,14 +63,14 @@ This game is an updated version of Lottery Game Basic with 3 main functions:
 
 **Overview**
 
-This game is an upgraded version of th the Lottery Game Pro. It will have these following functions:
+This game is an updated version of the Lottery Game Pro. It will have these following functions:
 
 - Login function:
     - If it is an admin account, there will be a separate menu consisting of account management, account deposit, statistics, and logout.
     - If it is a regular account, the regular menu will be displayed including: play lottery, change password, statistics, and logout.
 - Admin function:
-    - Account management: Create accounts (not allowed to create duplicate usernames) and delete accounts (not allowed to delete admin accounts). Account information includes username, password, total money, and is saved in the taikhoan.txt file, with each account on one line.
-    - Deposit money: The deposit function will update the account balance in the taikhoan.txt file.
+    - Account management: Create accounts (not allowed to create duplicate usernames) and delete accounts (not allowed to delete admin accounts). Account information includes username, password, total money, and is saved in the account.txt file, with each account on one line.
+    - Deposit money: The deposit function will update the account balance in the account.txt file.
     - Statistics: The statistics function will count the number of accounts, the number of lottery plays, and the win/loss ratio.
 - User function:
     - Change password function: Players can change their passwords.
