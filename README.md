@@ -74,7 +74,7 @@ This game is an updated version of the Lottery Game Pro. It will have these foll
     - Statistics: The statistics function will count the number of accounts, the number of lottery plays, and the win/loss ratio.
 - User function:
     - Change password function: Players can change their passwords.
-    - Play lottery function: Each time a lottery is played, the information will be automatically saved to the choilo.txt file, including: play time, username, lottery number bet, bet amount, draw result, lottery win result, each play on one line.
+    - Play lottery function: Each time a lottery is played, the information will be automatically saved to the playing-lottery.txt file, including: play time, username, lottery number bet, bet amount, draw result, lottery win result, each play on one line.
     - Statistics function: Allows users to view statistics such as the number of times they played the lottery, total winnings from lottery plays, total losses from lottery plays, win/loss ratio.
 
-- Module construction: Transfer all the functions above into one module called LoDeHoc. Build a File Processing Module with the input as the file path and the output as a list of data read from the file. Both modules are located in the my_lib directory.
+- Module construction: Transfer all the functions above into one module called lotteryGame. Build a File Processing Module with the input as the file path and the output as a list of data read from the file. Both modules are located in the my_lib directory.
